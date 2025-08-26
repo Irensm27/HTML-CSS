@@ -1,0 +1,15 @@
+body{
+background-image: url("https://img3.akspic.ru/crops/6/2/1/1/8/181126/181126-betmen-illustracia-supergeroj-temnota-liga_spravedlivosti-1920x1080.jpg");
+    background-attachment: fixed;
+}
+img{
+   background-size: cover;
+}
+p{
+    color: white;
+    background-color: rgba(240, 255, 255, 0.15);
+}
+h1{
+    color: rgba(83, 50, 106, 0.79);
+    margin-left: 600px;
+}
