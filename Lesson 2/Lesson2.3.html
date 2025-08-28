@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson2.3</title>
+    <style>
+        *{
+            margin: 0;
+        }
+      body{
+          height: 100vh;
+      }
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 0 10px;
+
+        }
+        .red{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        .red p{
+            /*text-align: center;*/
+
+        }
+        .red img{
+            width: 50%;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+        }
+        .flex{
+            height: 100%;
+            background-color: #64ede2;
+            display: flex;
+            justify-content: center; /*вирівнювання по ширині*/
+            gap: 20px;
+            align-items: center; /*вирівнювання по висоті*/
+            flex-direction: row; /*напрямок рядку*/
+
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="box red">
+        <p>Lorem ipsum dolor.</p>
+        <img src="https://foni.papik.pro/uploads/posts/2024-09/foni-papik-pro-beci-p-kartinki-yabloko-dlya-detei-na-prozrachnom-26.png" alt="apple">
+    </div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+</div>
+</body>
+</html>
