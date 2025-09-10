@@ -1,0 +1,37 @@
+*{
+
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    margin: 2%;
+}
+header{
+    height: 60vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header, section, footer  {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+section{
+    height: 50vh;
+    width: 32%;
+    background-color: #315087;
+}
+footer{
+    height: 90vh;
+    background-color: cornflowerblue;
+}
