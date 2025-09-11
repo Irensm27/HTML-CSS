@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    /*list-style-type: none;*/
+}
+section{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+section p{
+    width: 90%;
+    font-size: 20px;
+}
+section h2{
+    font-size: 40px;
+}
+#blue{
+    background: #70aef1;
+}
+#green{
+    background: rgba(12, 243, 15, 0.5);
+}
+#red{
+    background: rgba(244, 44, 44, 0.5);
+}
+a {
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 40px;
+    color: black;
+}
