@@ -1,0 +1,25 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.circle{
+   width:200px;
+    height:200px;
+    border-radius:50%;
+    border-top: 30px solid rgb(255, 192, 203);
+    border-right: 30px solid #c4c0ff;
+    border-bottom: 30px solid #c0ffe0;
+    border-left: 30px solid #9474e4;
+    animation: preloader 4s infinite linear alternate;
+}
+@keyframes preloader {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(-360deg) scale(1.5);
+    }
+}
