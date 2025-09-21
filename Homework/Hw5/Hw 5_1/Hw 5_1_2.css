@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.animation{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: preloader 8s infinite linear alternate;
+}
+.animation img{
+    height: 100px;
+}
+@keyframes preloader  {
+    from{
+        transform: skewX(120deg);
+    }
+    40%{
+        transform: skewX(160deg);
+    }
+    60%{
+        transform: skewX(220deg);
+    }
+    to{
+        transform: skewX(290deg);
+    }
+}
