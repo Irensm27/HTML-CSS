@@ -21,6 +21,17 @@ body{
 .animation img{
     height: 100px;
 }
+.pingvin{
+    animation: ping 5s infinite linear alternate;
+}
+@keyframes ping{
+    from{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(-10deg);
+    }
+}
 @keyframes preloader  {
     from{
         transform: translateY(0);

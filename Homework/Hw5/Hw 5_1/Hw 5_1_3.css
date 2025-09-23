@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.animation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+}
+.lemon{
+    height: 100px;
+    animation: lemon 5s infinite linear;
+}
+.water{
+    height: 400px;
+}
+@keyframes lemon  {
+    from{
+        transform: translateY(0) rotate(0deg);
+    }
+    20%{
+        transform: translateY(30px) rotate(100deg);
+    }
+    40%{
+        transform:translateY(60px) rotate(200deg);
+    }
+    60%{
+        transform:translateY(90px) rotate(300deg);
+    }
+    to{
+        transform:translateY(120px) rotate(360deg);
+    }
+}
