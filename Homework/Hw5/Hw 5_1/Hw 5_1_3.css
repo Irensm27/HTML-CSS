@@ -15,7 +15,7 @@ body{
 }
 .lemon{
     height: 100px;
-    animation: lemon 5s infinite linear;
+    animation: lemon 4s infinite alternate ease;
 }
 .water{
     height: 400px;
