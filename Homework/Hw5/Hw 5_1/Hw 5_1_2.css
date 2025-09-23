@@ -6,27 +6,35 @@ body{
 }
 
 .animation{
-    margin: 100px auto;
+    /*margin: 100px auto;*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    animation: preloader 8s infinite linear alternate;
+    gap: 10vh;
+
+}
+.snow{
+    animation: preloader 5s infinite linear alternate;
+
 }
 .animation img{
     height: 100px;
 }
 @keyframes preloader  {
     from{
-        transform: skewX(120deg);
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(30px);
     }
     40%{
-        transform: skewX(160deg);
+        transform:translateY(50px);
     }
     60%{
-        transform: skewX(220deg);
+        transform:translateY(80px);
     }
     to{
-        transform: skewX(290deg);
+        transform:translateY(100px);
     }
 }
