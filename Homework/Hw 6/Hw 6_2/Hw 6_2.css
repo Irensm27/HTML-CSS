@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+.form{
+    width: 30vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 20px;
+}
+.form div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(174, 232, 232, 0.73);
+    height: 25%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+.form div:nth-child(1) h3{
+    font-size: 26px;
+    font-weight: 400;
+}
+.form form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+input[type=text],
+input[type=password]{
+    width: 300px;
+    margin: 15px;
+    height: 30px;
+}
+.form>form>div{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+
+}
+form input[type="submit"]{
+    background: rgba(174, 232, 232, 0.73);
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin-left: 65px;
+}
