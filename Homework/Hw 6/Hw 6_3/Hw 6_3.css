@@ -1,39 +1,52 @@
 body {
-    font-family: Arial, sans-serif;
     height: 100vh;
-    width: 100vw;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: #fafafa;
+    margin: 0;
+}
+.container, .signup {
+    width: 400px;
+    border: 1px solid #bcb4b4;
+    background: #fff;
+    box-sizing: border-box;
 }
 
-.container{
-    text-align: center;
+.container {
     border: 1px solid #bcb4b4;
-    height: 55%;
-    width: 25%;
-}
-.logo{
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo img{
-    height: 65%;
-    width: 45%;
-}
-div .form form{
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-div .form form button{
+.logo {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 200px;
+    height: auto;
+}
+.form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.form form button {
     background-color: #3897f0;
     color: white;
-    width: 360px;
+    width: 300px;
     height: 40px;
     border: none;
     border-radius: 7px;
@@ -41,29 +54,44 @@ div .form form button{
     font-size: medium;
     font-weight: bold;
     margin-bottom: 15px;
+    cursor: pointer;
 }
-.form form input{
-    width: 350px;
+
+.form form input {
+    width: 300px;
     height: 40px;
     margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid  #bcb4b4;
+    border: 1px solid #bcb4b4;
     border-radius: 3px;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
-p .or{
+
+.or {
     color: #8e8e8e;
     font-weight: bold;
+    margin: 15px 0;
 }
-.links ul li{
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links ul li {
     list-style-type: none;
     font-weight: bold;
     color: #385185;
-    font-size: 20px;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
 }
 
-.links ul li:before{
+.links ul li:before {
     content: "";
     display: inline-block;
     width: 20px;
@@ -72,29 +100,29 @@ p .or{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png");
     background-size: cover;
 }
-.links a{
+
+.links a {
     text-decoration: none;
     color: #385185;
     font-weight: bold;
 }
-.signup{
+
+.signup {
     text-align: center;
-    border: 1px solid #bcb4b4;
-    height: 10%;
-    width: 25%;
+    height: 80px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.signup p{
-    /*font-weight: bold;*/
-    font-size: 20px;
+.signup p {
+    font-size: 16px;
+    margin: 0;
 }
-.signup a{
+.signup a {
     text-decoration: none;
     color: #3897f0;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin-left: 5px;
 }
